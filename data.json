@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "This is a program that displays a randomly selected quote each time the user clicks a button",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://carlavid.github.io/random-quote-generator/",
+            "github_link": "https://github.com/carlavid/random-quote-generator",
+            "image_urls": ["./public/images/data-pagination-1.png", "./public/images/data-pagination-2.png"]
+        },
+        {
+            "id": 1,
+            "project_name": "Data Pagination and Filtering",
+            "description": "This project displays several 'pages' of student data that the user can easily navigate and view.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://carlavid.github.io/data-pagination-and-filtering/",
+            "github_link": "https://github.com/carlavid/data-pagination-and-filtering",
+            "image_urls": ["./public/images/data-pagination-1.png", "./public/images/data-pagination-2.png"]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "This project uses JavaScript to enhance an interactive registration form for a fictional Full Stack conference.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://carlavid.github.io/interactive-form/",
+            "github_link": "https://github.com/carlavid/interactive-form",
+            "image_urls": ["./public/images/interactive-form-1.png", "./public/images/interactive-form-2.png", "./public/images/interactive-form-3.png"]
+        },
+        {
+            "id": 3,
+            "project_name": "OOP Game Show App",
+            "description": "This project uses JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://carlavid.github.io/oop-game/",
+            "github_link": "https://github.com/carlavid/oop-game",
+            "image_urls": ["./public/images/phrase-hunter-1.png", "./public/images/phrase-hunter-2.png", "./public/images/phrase-hunter-3.png", "./public/images/phrase-hunter-4.png"]
+        },
+        {
+            "id": 4,
+            "project_name": "Public API Requests",
+            "description": "This project uses the Random User Generator API (https://randomuser.me/) to grab information for 12 random 'employees' and uses that data to build a prototype for an employee directory.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://carlavid.github.io/public-api-requests/",
+            "github_link": "https://github.com/carlavid/public-api-requests",
+            "image_urls": ["./public/images/employee-directory-1.png", "./public/images/employee-directory-2.png", "./public/images/employee-directory-3.png"]
+        }
+    ]
+}
