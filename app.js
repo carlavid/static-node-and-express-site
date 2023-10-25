@@ -3,7 +3,7 @@ const { projects } = require("./data.json");
 const app = express();
 
 app.set("view engine", "pug");
-app.use(express.static('public'));
+app.use("/static", express.static("public"));
 
 /**
  * Set up routes
@@ -20,7 +20,7 @@ app.get("/about", (req, res) => {
 })
 
 /* GET project page */
-app.get("/projects/:id", (req, res) => {
+app.get("/projects/:id", (req, res, next) => {
     const projectId = req.params.id;
     const project = projects.find(({ id }) => id === +projectId);
     if (project) {
@@ -28,7 +28,6 @@ app.get("/projects/:id", (req, res) => {
     } else {
         res.sendStatus(404);
     }
-    
 })
 
 /* Create server */

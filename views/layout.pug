@@ -14,7 +14,7 @@ html(lang="en" dir="ltr")
       .sidebar-info-box
         br
         .thumbnail-box
-          img.thumbnail(src="./images/self.jpg", alt='', width='550', height='350')
+          img.thumbnail(src="/static/images/self.jpg", alt='thumbnail picture of self')
         .dev-intro-box
 
           //- Replace with your name
@@ -24,7 +24,7 @@ html(lang="en" dir="ltr")
           p This Portfolio is all about the work I have accomplished and how I am the most amazing web developer that you should most hire immediately. 
 
           //- Add path from your '/about' route handler to the href below
-          a(href='') Learn More &rarr;
+          a(href='./about') Learn More &rarr;
 
     .wrapper
       .header
@@ -32,7 +32,7 @@ html(lang="en" dir="ltr")
           button#menu-icon.menu-icon(type='button' data-toggle='my-info')
 
           //- Replace with your name — this is for the mobile layout
-          span Name
+          span Carla Vidales
 
       block content
 

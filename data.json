@@ -3,47 +3,47 @@
         {
             "id": 0,
             "project_name": "Random Quote Generator",
-            "description": "This is a program that displays a randomly selected quote each time the user clicks a button",
-            "technologies": ["HTML", "CSS", "JavaScript"],
+            "description": "An app that displays a randomly selected quote each time the user clicks a button",
+            "technologies": ["HTML", "CSS", "JavaScript", "GitHub"],
             "live_link": "https://carlavid.github.io/random-quote-generator/",
             "github_link": "https://github.com/carlavid/random-quote-generator",
-            "image_urls": ["./images/quote-generator-1.png", "./images/quote-generator-2.png"]
+            "image_urls": ["/static/images/quote-generator-1.png", "/static/images/quote-generator-2.png"]
         },
         {
             "id": 1,
             "project_name": "Data Pagination and Filtering",
-            "description": "This project displays several 'pages' of student data that the user can easily navigate and view.",
+            "description": "An app that displays several 'pages' of student data that the user can easily navigate, filter and view.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://carlavid.github.io/data-pagination-and-filtering/",
             "github_link": "https://github.com/carlavid/data-pagination-and-filtering",
-            "image_urls": ["./images/data-pagination-1.jpg", "./images/data-pagination-2.png"]
+            "image_urls": ["/static/images/data-pagination-1.jpg", "/static/images/data-pagination-2.png"]
         },
         {
             "id": 2,
             "project_name": "Interactive Form",
-            "description": "This project uses JavaScript to enhance an interactive registration form for a fictional Full Stack conference.",
+            "description": "An app that uses JavaScript to enhance an interactive registration form for a fictional Full Stack conference.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://carlavid.github.io/interactive-form/",
             "github_link": "https://github.com/carlavid/interactive-form",
-            "image_urls": ["./images/interactive-form-1.jpg", "./images/interactive-form-2.png", "./images/interactive-form-3.png"]
+            "image_urls": ["/static/images/interactive-form-1.jpg", "/static/images/interactive-form-2.png", "/static/images/interactive-form-3.png"]
         },
         {
             "id": 3,
             "project_name": "OOP Game Show App",
-            "description": "This project uses JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard.",
+            "description": "An app that uses JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://carlavid.github.io/oop-game/",
             "github_link": "https://github.com/carlavid/oop-game",
-            "image_urls": ["./images/phrase-hunter-1.jpg", "./images/phrase-hunter-2.png", "./images/phrase-hunter-3.png", "./images/phrase-hunter-4.png"]
+            "image_urls": ["/static/images/phrase-hunter-1.jpg", "/static/images/phrase-hunter-2.png", "/static/images/phrase-hunter-3.png", "/static/images/phrase-hunter-4.png"]
         },
         {
             "id": 4,
             "project_name": "Public API Requests",
-            "description": "This project uses the Random User Generator API (https://randomuser.me/) to grab information for 12 random 'employees' and uses that data to build a prototype for an employee directory.",
+            "description": "An app that uses the Random User Generator API (https://randomuser.me/) to grab information for 12 random 'employees' and uses that data to build a prototype for an employee directory.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://carlavid.github.io/public-api-requests/",
             "github_link": "https://github.com/carlavid/public-api-requests",
-            "image_urls": ["./images/employee-directory-1.jpg", "./images/employee-directory-2.png", "./images/employee-directory-3.png"]
+            "image_urls": ["/static/images/employee-directory-1.jpg", "/static/images/employee-directory-2.png", "/static/images/employee-directory-3.png"]
         }
     ]
 }
