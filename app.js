@@ -26,7 +26,26 @@ app.get("/projects/:id", (req, res, next) => {
     if (project) {
         res.render("project", { project });
     } else {
-        res.sendStatus(404);
+        const err = new Error();
+        err.status = 404;
+        err.message = "Oops! It looks like the project you requested does not exist.";
+        next(err);
+    }
+})
+
+/* 404 handler to catch undefined or non-existent route requests */
+app.use((req, res, next) => {
+    res.status(404).render("page-not-found");
+})
+
+/* Global error handler */
+app.use((err, req, res, next) => {
+    if (err.status === 404) {
+        res.status(404).render("page-not-found", { err });
+    } else {
+        err.message = "Sorry! It looks like something went wrong on the server";
+        err.status = 500;
+        res.render("error", { err });
     }
 })
 

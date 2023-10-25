@@ -1,0 +1,8 @@
+extends layout.pug 
+
+block content 
+    h1= `Server Error`
+    h2= `Error status code: ${err.status} - Server Error`
+    p= `${err.message}`
+
+    a(href='/') Home 
