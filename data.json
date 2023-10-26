@@ -39,7 +39,7 @@
         {
             "id": 4,
             "project_name": "Public API Requests",
-            "description": "An app that uses the Random User Generator API (https://randomuser.me/) to grab information for 12 random 'employees' and uses that data to build a prototype for an employee directory.",
+            "description": "In this project, I developed an application for a fictional company, 'Awesome Startup', a distributed company known for its widespread remote workforce. I used the Random User Generator API (https://randomuser.me/) to grab information for 12 random 'employees', and used that data to build a prototype for an Awesome Startup employee directory.I requested a JSON object from the API and parsed the data so that 12 employees are listed in an organized grid format, showcasing each employee's thumbnail image, full name, email, and location. Clicking on an employee's image or name opens a modal window, unveiling further details such as the employee's birthday and address. Additionally, I implemented a feature that enables users to seamlessly toggle between employee modal windows and a search feature for easy employee lookup.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://carlavid.github.io/public-api-requests/",
             "github_link": "https://github.com/carlavid/public-api-requests",
