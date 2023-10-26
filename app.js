@@ -43,8 +43,8 @@ app.use((err, req, res, next) => {
     if (err.status === 404) {
         res.status(404).render("page-not-found", { err });
     } else {
-        err.message = "Sorry! It looks like something went wrong on the server";
-        err.status = 500;
+        err.message = "Sorry! It looks like something went wrong on the server." || err.message;
+        err.status = 500 || err.status;
         res.render("error", { err });
     }
 })

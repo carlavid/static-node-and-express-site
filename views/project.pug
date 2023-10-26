@@ -34,9 +34,9 @@ block content
     .project-img-box.box
 
       //- Replace the URLs in the src attributes below with interpolated template literals to dynamically add your project images, and add descriptions to the alt attributes
-      img.project-img(src=`${project.image_urls[0]}`, alt='')
-      img.project-img(src=`${project.image_urls[1]}`, alt='')
-      img.project-img(src=`${project.image_urls[2]}`, alt='')
+      img.project-img(src=`${project.image_urls[0]}`, alt=`screenshot of ${project.project_name}`)
+      img.project-img(src=`${project.image_urls[1]}`, alt=`screenshot of ${project.project_name}`)
+      img.project-img(src=`${project.image_urls[2]}`, alt=`screenshot of ${project.project_name}`)
 
     nav.nav
       a(href='/')

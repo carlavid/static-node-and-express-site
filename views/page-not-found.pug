@@ -1,8 +1,13 @@
 extends layout.pug 
 
 block content 
-    h1= `${err.status} - Page Not Found`
-    h2= `${err.message}`
-    pre= `${err.stack}`
+    div.error-message
+        h1= `${err.status} - Page Not Found`
+        h2= `${err.message}`
+        pre= `${err.stack}`
 
-    a(href='/') Home 
+    div    
+        nav.nav
+            a(href='/')
+                span &larr;
+                |  Back to Home
