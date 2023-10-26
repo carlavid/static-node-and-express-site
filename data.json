@@ -12,7 +12,7 @@
         {
             "id": 1,
             "project_name": "Data Pagination and Filtering",
-            "description": "With a dataset of 42 students, I used pagination to create an interactive 'paging' system, allowing users to effortlessly explore and view student information across multiple pages. I also incorporated a search feature, enabling users to seamlessly filter through the student data. ",
+            "description": "With a dataset of 42 students, I used pagination to create an interactive 'paging' system, allowing users   to effortlessly explore and view student information across multiple pages. I also incorporated a search feature, enabling users to seamlessly filter through the student data.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://carlavid.github.io/data-pagination-and-filtering/",
             "github_link": "https://github.com/carlavid/data-pagination-and-filtering",
@@ -21,7 +21,7 @@
         {
             "id": 2,
             "project_name": "Interactive Form",
-            "description": "An app that uses JavaScript to enhance an interactive registration form for a fictional Full Stack conference.",
+            "description": "An app that leverages JavaScript to elevate the interactivity of a registration form designed for a fictional Full Stack conference. I enriched the user experience by introducing my own JavaScript code, instilling the form with custom and context-aware functionality. This includes real-time input validation, insightful error messaging for invalid entries, and the prevention of conflicting activity registrations, all aimed at ensuring a smoother and more user-friendly registration process.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://carlavid.github.io/interactive-form/",
             "github_link": "https://github.com/carlavid/interactive-form",
@@ -30,7 +30,7 @@
         {
             "id": 3,
             "project_name": "OOP Game Show App",
-            "description": "An app that uses JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard.",
+            "description": "In this project, I used JavaScript and Object-Oriented Programming to craft a browser-based word guess game. Players aim to decipher a hidden phrase by clicking on either physical or on-screen keyboard keys. After each letter selection, the program cross-references it with the secret phrase. When a match is found, the game board reveals the letter's position. Players continue selecting letters until they either successfully guess the entire phrase and emerge victorious or exceed five incorrect attempts, leading to defeat. If a player manages to solve the phrase before 5 guesses, a winning screen will appear. If they make five incorrect attempts, a losing screen will appear. Importantly, a player can only guess a letter once, and once guessed, it becomes inactive on the on-screen keyboard. ",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://carlavid.github.io/oop-game/",
             "github_link": "https://github.com/carlavid/oop-game",
