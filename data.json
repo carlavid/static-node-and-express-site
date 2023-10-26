@@ -3,7 +3,7 @@
         {
             "id": 0,
             "project_name": "Random Quote Generator",
-            "description": "An app that displays a randomly selected quote each time the user clicks a button",
+            "description": "An app that effortlessly presents you with a curated Disney quote at random. You have the choice to either click the 'Show another quote' button for immediate access to a new quote, or simply relax as the page automatically refreshes itself. A built-in timer ensures a fresh quote graces your screen every 10 seconds, while the background color transitions to a new, random hue with each quote's appearance.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://carlavid.github.io/random-quote-generator/",
             "github_link": "https://github.com/carlavid/random-quote-generator",
@@ -12,7 +12,7 @@
         {
             "id": 1,
             "project_name": "Data Pagination and Filtering",
-            "description": "An app that displays several 'pages' of student data that the user can easily navigate, filter and view.",
+            "description": "With a dataset of 42 students, I used pagination to create an interactive 'paging' system, allowing users to effortlessly explore and view student information across multiple pages. I also incorporated a search feature, enabling users to seamlessly filter through the student data. ",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://carlavid.github.io/data-pagination-and-filtering/",
             "github_link": "https://github.com/carlavid/data-pagination-and-filtering",
