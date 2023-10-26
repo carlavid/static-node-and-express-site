@@ -7,7 +7,7 @@
             "technologies": ["HTML", "CSS", "JavaScript", "GitHub"],
             "live_link": "https://carlavid.github.io/random-quote-generator/",
             "github_link": "https://github.com/carlavid/random-quote-generator",
-            "image_urls": ["/static/images/quote-generator-1.png", "/static/images/quote-generator-2.png"]
+            "image_urls": ["/static/images/quote-generator-1.jpg", "/static/images/quote-generator-2.jpg", "/static/images/quote-generator-3.jpg"]
         },
         {
             "id": 1,
@@ -16,7 +16,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://carlavid.github.io/data-pagination-and-filtering/",
             "github_link": "https://github.com/carlavid/data-pagination-and-filtering",
-            "image_urls": ["/static/images/data-pagination-1.jpg", "/static/images/data-pagination-2.png"]
+            "image_urls": ["/static/images/data-pagination-1.jpg", "/static/images/data-pagination-2.jpg", "/static/images/data-pagination-3.jpg"]
         },
         {
             "id": 2,
@@ -25,7 +25,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://carlavid.github.io/interactive-form/",
             "github_link": "https://github.com/carlavid/interactive-form",
-            "image_urls": ["/static/images/interactive-form-1.jpg", "/static/images/interactive-form-2.png", "/static/images/interactive-form-3.png"]
+            "image_urls": ["/static/images/interactive-form-1.jpg", "/static/images/interactive-form-2.jpg", "/static/images/interactive-form-3.jpg"]
         },
         {
             "id": 3,
@@ -34,7 +34,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://carlavid.github.io/oop-game/",
             "github_link": "https://github.com/carlavid/oop-game",
-            "image_urls": ["/static/images/phrase-hunter-1.jpg", "/static/images/phrase-hunter-2.png", "/static/images/phrase-hunter-3.png", "/static/images/phrase-hunter-4.png"]
+            "image_urls": ["/static/images/phrase-hunter-1.jpg", "/static/images/phrase-hunter-2.jpg", "/static/images/phrase-hunter-3.jpg"]
         },
         {
             "id": 4,
@@ -43,7 +43,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://carlavid.github.io/public-api-requests/",
             "github_link": "https://github.com/carlavid/public-api-requests",
-            "image_urls": ["/static/images/employee-directory-1.jpg", "/static/images/employee-directory-2.png", "/static/images/employee-directory-3.png"]
+            "image_urls": ["/static/images/employee-directory-1.jpg", "/static/images/employee-directory-2.jpg", "/static/images/employee-directory-3.jpg"]
         }
     ]
 }
