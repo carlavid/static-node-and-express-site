@@ -5,10 +5,6 @@ const app = express();
 app.set("view engine", "pug");
 app.use("/static", express.static("public"));
 
-/**
- * Set up routes
- */
-
 /* GET index page */
 app.get("/", (req, res) => {
     res.render("index", { projects });
@@ -47,6 +43,7 @@ app.use((err, req, res, next) => {
         err.status = 500 || err.status;
         res.render("error", { err });
     }
+    console.log(err.message);
 })
 
 /* Create server */
