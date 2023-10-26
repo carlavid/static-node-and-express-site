@@ -48,5 +48,3 @@ app.use((err, req, res, next) => {
 
 /* Create server */
 app.listen(3000);
-
-
