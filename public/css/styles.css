@@ -54,6 +54,10 @@ p{
   color: #666;
 }
 
+.current-position {
+  margin-top: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -152,6 +156,18 @@ nav a span {
   width: 100%;
   max-width: 250px;
   border: 4px solid #fff;
+}
+
+.project-thumbnail:hover {
+  box-shadow: 0 0 100px rgb(22, 88, 220);  
+}
+
+.more-link:hover {
+  color: white;
+}
+
+.back-link:hover {
+  color: rgb(22, 88, 220);
 }
 
 .dev-intro-box {
@@ -303,6 +319,15 @@ nav a span {
   border: 1px solid transparent;
 }
 
+.btn-link:hover {
+  box-shadow: 0 5px #666;
+  background-color: rgba(12, 90, 225, 0.834);
+}
+
+.btn-link:active,
+.project-thumbnail:active {
+  transform: translateY(4px);
+}
 
 /* 
   Tablet layout styles 

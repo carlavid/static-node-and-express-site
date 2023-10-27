@@ -9,10 +9,10 @@ block content
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
-    
+
       each project in projects
         .cell
           a(href=`/projects/${project.id}`)
-            img.thumbnail(src=`${project.image_urls[0]}`, alt=`${project.project_name} Thumbnail`)
+            img.thumbnail.project-thumbnail(src=`${project.image_urls[0]}`, alt=`${project.project_name} Thumbnail`)
             h5= project.project_name
 

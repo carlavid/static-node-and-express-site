@@ -3,7 +3,7 @@ extends layout.pug
 block content
 
   nav.nav
-    a(href='/')
+    a.back-link(href='/')
       span &larr;
       |  Back
 
@@ -30,6 +30,6 @@ block content
       img.project-img(src=`${project.image_urls[2]}`, alt=`screenshot of ${project.project_name}`)
 
     nav.nav
-      a(href='/')
+      a.back-link(href='/')
         span &larr;
         |  Back
