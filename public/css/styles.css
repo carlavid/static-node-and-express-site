@@ -141,7 +141,7 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background: #000;
+  background: rgb(24 40 70);
 }
 
 .sidebar-info-box {
@@ -159,11 +159,11 @@ nav a span {
 }
 
 .project-thumbnail:hover {
-  box-shadow: 0 0 100px rgb(22, 88, 220);  
+  box-shadow: 0 0 100px rgb(47, 78, 135);  
 }
 
 .more-link:hover {
-  color: white;
+  color: rgb(22, 88, 220);
 }
 
 .back-link:hover {
@@ -192,7 +192,7 @@ nav a span {
   font-size: 13px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #555;
+  color: #fefefe;
 }
 
 .header {

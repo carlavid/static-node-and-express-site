@@ -8,7 +8,7 @@ Extra credit features:
 * Created two new Pug templates in the views folder that will be rendered when there's a 404 error or other status error.
 * Style changes:
     * Added glow effect when users hovers over project thumbnails on the homepage
-    * Added animation when user clicks on project thumbnail page
+    * Added animation when user clicks on project thumbnail page, live link, github repo, linkedIn & GitHub links
     * Added box shadow and color change when user hovers over links
     
     
