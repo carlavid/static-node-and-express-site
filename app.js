@@ -17,6 +17,7 @@ app.get("/about", (req, res) => {
 
 /* GET project page */
 app.get("/projects/:id", (req, res, next) => {
+    // access value of id parameter 
     const projectId = req.params.id;
     const project = projects.find(({ id }) => id === +projectId);
     if (project) {
@@ -29,7 +30,7 @@ app.get("/projects/:id", (req, res, next) => {
     }
 })
 
-/* 404 handler to catch undefined or non-existent route requests */
+/* 404 handler to catch undefined or non-existent project route requests */
 app.use((req, res, next) => {
     res.status(404).render("page-not-found");
 })
@@ -37,14 +38,14 @@ app.use((req, res, next) => {
 /* Global error handler */
 app.use((err, req, res, next) => {
     if (err.status === 404) {
-        res.status(404).render("page-not-found", { err });
+        res.render("page-not-found", { err });
     } else {
-        err.message = "Sorry! It looks like something went wrong on the server." || err.message;
-        err.status = 500 || err.status;
+        err.status = 500;
+        err.message = "Sorry! It looks like something went wrong on the server.";
         res.render("error", { err });
     }
     console.log(err.message);
 })
 
-/* Create server */
+/* Server setup */
 app.listen(3000);
