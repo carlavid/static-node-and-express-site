@@ -17,7 +17,6 @@ app.get("/about", (req, res) => {
 
 /* GET project page */
 app.get("/projects/:id", (req, res, next) => {
-    // access value of id parameter 
     const projectId = req.params.id;
     const project = projects.find(({ id }) => id === +projectId);
     if (project) {
