@@ -22,7 +22,7 @@ body {
   line-height: 1.5;
   color: #0a0a0a;
   background: #fefefe;
-  background: #000;
+  background: rgb(24 40 70);
   transform: translateX(0px);
   transition: all 0.4s ease-out;
 }
@@ -102,7 +102,7 @@ a {
 }
 
 .box li {
-  font-size: 13px;
+  font-size: 16px;
 }
 
 

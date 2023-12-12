@@ -44,6 +44,40 @@
             "live_link": "https://carlavid.github.io/public-api-requests/",
             "github_link": "https://github.com/carlavid/public-api-requests",
             "image_urls": ["/static/images/employee-directory-1.jpg", "/static/images/employee-directory-2.jpg", "/static/images/employee-directory-3.jpg"]
+        },
+        {
+            "id": 5,
+            "project_name": "React Gallery App",
+            "description": "In this project, I used the React library to create an image gallery as a single page application. The user can either enter an image search term or select from the three default image categories. The app fetches image data from Flickr and displays the images on the webpage.",
+            "technologies": ["JavaScript", "Node.js", "React"],
+            "live_link": "https://github.com/carlavid/react-gallery-app",
+            "github_link": "https://github.com/carlavid/react-gallery-app",
+            "image_urls": ["/static/images/gallery-app-1.jpg", "/static/images/gallery-app-2.jpg", "/static/images/gallery-app-3.jpg"]
+        },
+        {
+            "id": 6,
+            "project_name": "SQL Library Manager",
+            "description": "In this project, I was tasked with creating an application for a fictional library to help them manage their collection of books. Given HTML designs and an existing SQLite database I implemented a dynamic website using JavaScript, Node.js, Express, Pug, SQLite and the SQL ORM Sequelize. I built a web application that includes pages to: list, add, update, and delete books in the SQLite database. The database contained validation to ensure the data provided by the user is consistent and useful.",
+            "technologies": ["JavaScript", "Node.js", "Express", "Pug", "SQLite", "Sequelize"],
+            "live_link": "https://github.com/carlavid/sql-library-manager",
+            "github_link": "https://github.com/carlavid/sql-library-manager",
+            "image_urls": ["/static/images/sql-library-manager-1.jpg", "/static/images/sql-library-manager-2.jpg", "/static/images/sql-library-manager-3.jpg"]
+        },
+        {
+            "id": 7,
+            "project_name": "Course Catalog: React and REST API",
+            "description": "For this project, I created a university catalog with administration capabilities using React, Express, and Sequelize. First, I wrote a REST API to provide a way to administer a school database which contains information about users and courses. The server and database consist of several fundamental features including: \\n* A data relationship between user and course tables \\n* Server-side and database validation, to ensure data consistency and usefulness \\n* A handrolled auth stack to prevent unauthorized modifications of the data \\n* Create, retrieve, update, and delete operations exposed via the API. \\nOnce the server-side component was completed, I implemented a React-based frontend for it. This frontend consisted of several views including ones for sign up, sign in, viewing all courses, course creation, and course update/deletion. While authorization to perform certain operations (like updates and deletions) is guaranteed by the server-side, the UI helps prevent these requests by adjusting the UI based on whether the user is the owner of a particular course.",
+            "technologies": ["JavaScript", "JSX", "Node.js", "REST APIs", "Express", "Sequelize", "REACT", "REACT Router"],
+            "live_link": "https://github.com/carlavid/full-stack-app",
+            "github_link": "https://github.com/carlavid/full-stack-app",
+            "image_urls": [
+                "/static/images/full-stack-app-1.jpg",
+                "/static/images/full-stack-app-2.jpg",
+                "/static/images/full-stack-app-3.jpg",
+                "/static/images/full-stack-app-4.jpg",
+                "/static/images/full-stack-app-5.jpg",
+                "/static/images/full-stack-app-6.jpg"
+            ]
         }
     ]
 }
