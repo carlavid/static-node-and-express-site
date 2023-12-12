@@ -24,10 +24,8 @@ block content
         a.btn-link(href=`${project.github_link}`) GitHub Repo
 
     .project-img-box.box
-
-      img.project-img(src=`${project.image_urls[0]}`, alt=`screenshot of ${project.project_name}`)
-      img.project-img(src=`${project.image_urls[1]}`, alt=`screenshot of ${project.project_name}`)
-      img.project-img(src=`${project.image_urls[2]}`, alt=`screenshot of ${project.project_name}`)
+      each image_url in project.image_urls 
+        img.project-img(src=`${image_url}`, alt=`screenshot of ${project.project_name}`)
 
     nav.nav
       a.back-link(href='/')
