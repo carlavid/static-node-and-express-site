@@ -12,7 +12,13 @@ block content
       .project-info-box.box
 
         h1= `${project.project_name}`
-        p= `${project.description}`
+
+        if project.description 
+          each line in project.description.split('\n')
+            if line.trim().startsWith('-')
+              li.project-info-box!= line.replace(/^\s*-/, '')
+            else 
+              p!= line.replace(/\n/g, '<br>').trim()
 
       .project-tech-links-box.box
         h6 Technologies

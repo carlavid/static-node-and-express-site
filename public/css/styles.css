@@ -105,6 +105,9 @@ a {
   font-size: 16px;
 }
 
+/* li {
+  list-style-position: outside;
+} */
 
 /*
   Sidebar and mobile header
@@ -141,7 +144,7 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background: rgb(24 40 70);
+  background: rgb(24 40 70)
 }
 
 .sidebar-info-box {
@@ -183,7 +186,7 @@ nav a span {
   text-rendering: optimizeLegibility;
   line-height: 1.6;
   font-size: 14px;
-  color: #999
+  color: #eeeeeeb8
 }
 
 .sidebar a {
@@ -286,8 +289,16 @@ nav a span {
   About and project pages styles 
 */
 .about-intro-box p,
-.project-info-box p {
-  font-size: 125%;
+.project-info-box p,
+.project-info-box li {
+  font-size: 120%;
+}
+
+.project-info-box li {
+  list-style-position: outside;
+  font-family: 'Merriweather', serif;
+  color: #666;
+  margin-left: 5%;
 }
 
 .about-bio p {
