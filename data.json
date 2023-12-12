@@ -34,7 +34,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://carlavid.github.io/oop-game/",
             "github_link": "https://github.com/carlavid/oop-game",
-            "image_urls": ["/static/images/phrase-hunter-1.jpg", "/static/images/phrase-hunter-2.jpg", "/static/images/phrase-hunter-3.jpg"]
+            "image_urls": ["/static/images/phrase-hunter-1.jpg", "/static/images/phrase-hunter-2.jpg", "/static/images/phrase-hunter-3.jpg", "/static/images/phrase-hunter-4.jpg"]
         },
         {
             "id": 4,
@@ -48,7 +48,7 @@
         {
             "id": 5,
             "project_name": "React Gallery App",
-            "description": "In this project, I used the React library to create an image gallery as a single page application. The user can either enter an image search term or select from the three default image categories. The app fetches image data from Flickr and displays the images on the webpage.",
+            "description": "In this project, I used the React library to create an image gallery as a single page application. The user can either enter an image search term or select from the three default image categories. The app fetches image data from Flickr and displays the images on the webpage. \nThe app also keeps track of browser history and changes the page's data based on the current URL. Clicking the browser's forward and back buttons navigates the user through all search history, keeping the URL and fetched data in sync.",
             "technologies": ["JavaScript", "Node.js", "React"],
             "live_link": "https://github.com/carlavid/react-gallery-app",
             "github_link": "https://github.com/carlavid/react-gallery-app",
