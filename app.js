@@ -27,6 +27,12 @@ app.get("/projects/:id", (req, res, next) => {
   }
 });
 
+// Route to test throwing 500 error
+app.get("/throw500error", (req, res, next) => {
+  const err = new Error();
+  err.status = 500;
+  next(err);
+});
 
 /* 404 handler to catch undefined or non-existent project route requests */
 app.use((req, res, next) => {
