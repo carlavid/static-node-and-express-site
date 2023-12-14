@@ -23,29 +23,32 @@ app.get("/projects/:id", (req, res, next) => {
   if (project) {
     res.render("project", { project });
   } else {
-    const err = new Error();
-    err.status = 404;
-    err.message =
-      "Oops! It looks like the project you requested does not exist.";
-    next(err);
+    next();
   }
 });
 
+
 /* 404 handler to catch undefined or non-existent project route requests */
 app.use((req, res, next) => {
-  res.status(404).render("page-not-found");
+  const err = new Error();
+  err.status = 404;
+  err.message = "Oops! It looks like the page you requested does not exist.";
+  next(err);
 });
 
 /* Global error handler */
 app.use((err, req, res, next) => {
+  err.status = err.status || 500;
+  err.message =
+    err.message || "Sorry! It looks like something went wrong on the server.";
+  console.log(`${err.status}: ${err.message}`);
+
+  // Render different views based on error status
   if (err.status === 404) {
-    res.render("page-not-found", { err });
+    res.status(404).render("page-not-found", { err });
   } else {
-    err.status = 500;
-    err.message = "Sorry! It looks like something went wrong on the server.";
-    res.render("error", { err });
+    res.status(err.status).render("error", { err });
   }
-  console.log(err.message);
 });
 
 /* Server setup */

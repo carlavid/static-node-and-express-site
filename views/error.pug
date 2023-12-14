@@ -2,10 +2,10 @@ extends layout
 
 block content 
     div.error-message
-    if err
         h1= 'Server Error'
         h2= `Error status code: ${err.status} - Server Error`
         p= err.message
+        pre= err.stack
 
     div
         nav.nav
