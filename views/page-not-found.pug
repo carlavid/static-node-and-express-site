@@ -1,10 +1,9 @@
-extends layout.pug 
+extends layout
 
 block content 
     div.error-message
         h1= `${err.status} - Page Not Found`
-        h2= `${err.message}`
-        pre= `${err.stack}`
+        h2= err.message
 
     div    
         nav.nav

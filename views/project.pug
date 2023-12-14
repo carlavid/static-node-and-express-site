@@ -1,4 +1,4 @@
-extends layout.pug
+extends layout
 
 block content
 
@@ -11,7 +11,7 @@ block content
     .inner-wrapper.flex-row-wrap.two-col
       .project-info-box.box
 
-        h1= `${project.project_name}`
+        h1= project.project_name
 
         if project.description 
           each line in project.description.split('\n')
@@ -26,12 +26,12 @@ block content
           each technology in project.technologies
             li= technology
 
-        a.btn-link(href=`${project.live_link}`) Live Demo
-        a.btn-link(href=`${project.github_link}`) GitHub Repo
+        a.btn-link(href=project.live_link) Live Demo
+        a.btn-link(href=project.github_link) GitHub Repo
 
     .project-img-box.box
       each image_url in project.image_urls 
-        img.project-img(src=`${image_url}`, alt=`screenshot of ${project.project_name}`)
+        img.project-img(src=image_url, alt=`screenshot of ${project.project_name}`)
 
     nav.nav
       a.back-link(href='/')
